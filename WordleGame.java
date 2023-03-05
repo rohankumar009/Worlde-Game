@@ -107,18 +107,4 @@ public class WordleGame {
             System.out.println("The secret word was: " + secretWord);
         }
     }
-    
-    // THIS WAS WHEN I INITIALLY MADE THE PROGRAM TO KEEP THE REPEATED WORDS OUT OF THE GAME AND I WOULD CALL THE hasRepeatedLetter() AT VARIOUS PLACES IN PROGRAM
-    // SINCE I DO NOT NEED IT AS I AM ABLE TO CORRECTLY IDENTIFY THE WORDS WITH REPEATING LETTERS I DO NOT NEED THE METHOD BELOW THUS IT HAS BEEN COMMENT OUT
-    
-    /*private static boolean hasRepeatedLetters(String word) {
-        char[] letters = word.toCharArray();
-        Arrays.sort(letters);
-        for (int i = 1; i < letters.length; i++) {
-            if (letters[i] == letters[i - 1]) {
-                return true;
-            }
-        }
-        return false;
-    }*/
 }
