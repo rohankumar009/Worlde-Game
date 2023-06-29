@@ -1,3 +1,4 @@
+# About the Game
 Wordle Game is a simple command-line word guessing game where the player has to guess a 5-letter word selected randomly from a predefined list of words. The player has a limited number of guesses to determine the secret word. After each incorrect guess, the game provides feedback to the player, indicating which letters in the guess match those in the secret word. The game stores the used words in a file, and the player can't guess the same word again. If the player correctly guesses the secret word, they win the game; otherwise, they lose.
 
 The motivation behind creating this game was the immense popularity and rapid growth of similar games among my friends. I am also very interested in game developement, as a result, I was intrigued and decided to develop my version of the game, hoping to bring a new twist to it. I wanted to challenge myself to create something that could stand out and be enjoyable for others to play.
